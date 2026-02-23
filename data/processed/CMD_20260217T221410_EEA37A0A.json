@@ -1,0 +1,10 @@
+{
+  "cmd": "create_order",
+  "actor": "U0002",
+  "created_at": "2026-02-17T22:14:10",
+  "payload": {
+    "lead_id": "L0001",
+    "peach_cases": "25",
+    "cherry_cases": "25"
+  }
+}

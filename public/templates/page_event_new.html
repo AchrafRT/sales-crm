@@ -1,0 +1,35 @@
+<div class='card'>
+  <div style='display:flex;justify-content:space-between;gap:10px;align-items:center'>
+    <h3 style='margin:0'>{{title}}</h3>
+    <a class='btn' href='{{back_url}}'>{{back_label}}</a>
+  </div>
+  <form method='post' action='/action' style='margin-top:10px'>
+    <input type='hidden' name='cmd' value='create_event'>
+    <input type='hidden' name='next' value='{{next_url}}'>
+    <div class='grid' style='grid-template-columns:1fr 1fr'>
+      <div>
+        <div class='field'><label class='small muted'>Title</label><input name='title' required></div>
+        <div class='row' style='gap:10px'>
+          <div class='field' style='flex:1'><label class='small muted'>Date</label><input type='date' name='date' required></div>
+          <div class='field' style='flex:1'><label class='small muted'>Time</label><input type='time' name='time' required></div>
+        </div>
+        <div class='row' style='gap:10px'>
+          <div class='field' style='flex:1'><label class='small muted'>Type</label>
+            <select name='type'>
+              <option value='meeting'>meeting</option>
+              <option value='call'>call</option>
+              <option value='delivery'>delivery</option>
+              <option value='event'>event</option>
+            </select>
+          </div>
+          <div class='field' style='flex:1'><label class='small muted'>Duration (min)</label><input name='duration' value='30'></div>
+        </div>
+      </div>
+      <div>
+        {{assignees}}
+        <div class='field'><label class='small muted'>Notes</label><textarea name='notes' rows='6'></textarea></div>
+      </div>
+    </div>
+    <button class='btn primary' type='submit'>Create</button>
+  </form>
+</div>

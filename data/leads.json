@@ -1,0 +1,83 @@
+{
+  "L0001": {
+    "id": "L0001",
+    "created_at": "2026-02-17T17:46:04",
+    "status": "new",
+    "business_name": "Depanneur A",
+    "business_phone": "514-000-0001",
+    "business_address": "Montreal, QC",
+    "assigned_to": "U0002",
+    "rep_name": "",
+    "rep_phone": "",
+    "rep_email": "",
+    "rep_address": "",
+    "notes": "",
+    "last_touch_at": "",
+    "history": [
+      {
+        "at": "2026-02-17T17:46:04",
+        "actor": "U0001",
+        "action": "import",
+        "detail": ""
+      },
+      {
+        "at": "2026-02-17T17:46:04",
+        "actor": "U0001",
+        "action": "assign",
+        "detail": "to U0002"
+      },
+      {
+        "at": "2026-02-17T22:14:10",
+        "actor": "U0002",
+        "action": "order_create",
+        "detail": "O0001"
+      }
+    ]
+  },
+  "L0002": {
+    "id": "L0002",
+    "created_at": "2026-02-17T17:46:04",
+    "status": "new",
+    "business_name": "Cafe B",
+    "business_phone": "514-000-0002",
+    "business_address": "Laval, QC",
+    "assigned_to": "",
+    "rep_name": "",
+    "rep_phone": "",
+    "rep_email": "",
+    "rep_address": "",
+    "notes": "",
+    "last_touch_at": "",
+    "history": [
+      {
+        "at": "2026-02-17T17:46:04",
+        "actor": "U0001",
+        "action": "import",
+        "detail": ""
+      }
+    ]
+  },
+  "L0003": {
+    "id": "L0003",
+    "created_at": "2026-02-17T17:46:04",
+    "status": "new",
+    "business_name": "Restaurant C",
+    "business_phone": "514-000-0003",
+    "business_address": "Longueuil, QC",
+    "assigned_to": "",
+    "rep_name": "",
+    "rep_phone": "",
+    "rep_email": "",
+    "rep_address": "",
+    "notes": "",
+    "last_touch_at": "",
+    "history": [
+      {
+        "at": "2026-02-17T17:46:04",
+        "actor": "U0001",
+        "action": "import",
+        "detail": ""
+      }
+    ]
+  }
+}

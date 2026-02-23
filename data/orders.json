@@ -1,0 +1,47 @@
+{
+  "O0001": {
+    "id": "O0001",
+    "lead_id": "L0001",
+    "client_id": "",
+    "created_at": "2026-02-17T22:14:10",
+    "items": [
+      {
+        "sku": "PEACH_BLACK",
+        "cases": 25,
+        "cans_per_case": 24,
+        "price_per_can": 2.49,
+        "price_per_case": 59.76,
+        "line_total": 1494.0
+      },
+      {
+        "sku": "CHERRY_PINK",
+        "cases": 25,
+        "cans_per_case": 24,
+        "price_per_can": 2.49,
+        "price_per_case": 59.76,
+        "line_total": 1494.0
+      }
+    ],
+    "pricing": {
+      "currency": "CAD",
+      "price_per_case": 59.76,
+      "price_per_can": 2.49,
+      "cans_per_case": 24,
+      "gst_rate": 0.05,
+      "qst_rate": 0.09975
+    },
+    "status": "draft",
+    "delivery_date": "",
+    "delivery_time": "",
+    "total": "3435.45 CAD",
+    "created_by": "U0002",
+    "printed": false,
+    "totals": {
+      "subtotal": 2988.0,
+      "gst": 149.4,
+      "qst": 298.05,
+      "total": 3435.45
+    },
+    "total_amount": 3435.45
+  }
+}

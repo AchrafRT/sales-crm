@@ -1,0 +1,19 @@
+<a class='btn' href='{{back_url}}'>&larr; {{back_label}}</a>
+<div class='card' style='margin-top:12px'>
+  <div style='display:flex;justify-content:space-between;gap:12px;align-items:flex-start'>
+    <div>
+      <h2 style='margin:0'>{{client_title}}</h2>
+      <div class='muted small'>{{client_subtitle}}</div>
+    </div>
+    <div>{{archive_btn}}</div>
+  </div>
+  <hr>
+  {{client_info}}
+</div>
+<div class='card' style='margin-top:12px'>
+  <h3 style='margin:0 0 10px 0'>{{orders_title}}</h3>
+  <table class='table'>
+    <thead><tr><th>ID</th><th>Status</th><th>Delivery</th><th>Total</th><th></th></tr></thead>
+    <tbody>{{order_rows}}</tbody>
+  </table>
+</div>

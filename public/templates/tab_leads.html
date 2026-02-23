@@ -1,0 +1,16 @@
+{{tools_html}}
+{{top_controls}}
+{{search_bar}}
+<div class='card'>
+  <h3 style='margin:0 0 10px 0'>{{title}}</h3>
+  <form method='post' action='/action'>
+    <input type='hidden' name='next' value='{{next_url}}'>
+    <div style='overflow:auto'>
+      <table class='table'>
+        <thead>{{table_head}}</thead>
+        <tbody>{{table_rows}}</tbody>
+      </table>
+    </div>
+    {{bulk_actions}}
+  </form>
+</div>

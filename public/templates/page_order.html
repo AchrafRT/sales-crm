@@ -1,0 +1,20 @@
+<a class='btn' href='{{back_url}}'>&larr; {{back_label}}</a>
+<div class='card' style='margin-top:12px'>
+  <div style='display:flex;justify-content:space-between;gap:12px;align-items:flex-start'>
+    <div>
+      <h2 style='margin:0'>{{order_title}}</h2>
+      <div class='muted small'>{{order_subtitle}}</div>
+    </div>
+    <div>{{right_actions}}</div>
+  </div>
+  <hr>
+  {{order_info}}
+</div>
+<div class='card' style='margin-top:12px'>
+  <h3 style='margin:0 0 10px 0'>{{items_title}}</h3>
+  {{items_html}}
+</div>
+<div class='card' style='margin-top:12px'>
+  <h3 style='margin:0 0 10px 0'>{{invoices_title}}</h3>
+  {{invoices_html}}
+</div>

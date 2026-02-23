@@ -1,0 +1,20 @@
+<a class='btn' href='{{back_url}}'>&larr; {{back_label}}</a>
+{{header}}
+{{update_form}}
+{{order_form}}
+<div class='card' style='margin-top:12px'>
+  <h3 style='margin:0 0 10px 0'>{{orders_title}}</h3>
+  <table class='table'>
+    <thead><tr><th>ID</th><th>Status</th><th>Delivery</th><th>Total</th><th>Invoices</th><th>Actions</th></tr></thead>
+    <tbody>{{order_rows}}</tbody>
+  </table>
+</div>
+{{email_box}}
+{{archive_box}}
+<div class='card' style='margin-top:12px'>
+  <h3 style='margin:0 0 10px 0'>{{audit_title}}</h3>
+  <table class='table'>
+    <thead><tr><th>Time</th><th>Actor</th><th>Action</th><th>Detail</th></tr></thead>
+    <tbody>{{audit_rows}}</tbody>
+  </table>
+</div>
